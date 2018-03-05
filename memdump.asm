@@ -1,4 +1,6 @@
 ;******************************************************************************
+; MemDump 0.8.0
+; 
 ; MemDump is an 8088 program to show contents of memory in hexadecimal.
 ; Copyright (C) 2018 s0s
 ; 
@@ -17,6 +19,9 @@
 ; Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 ;    ************************************************************************
+;      * Name:       MemDump                                              *
+;      * Version:    0.8.0 (alpha)                                        *
+;      *                                                                  *
 ;      * Created:    July 4, 2017                                         *
 ;      * Author:     s0s, a.k.a. TerraformerX                             *
 ;      *                                                                  *

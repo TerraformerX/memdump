@@ -206,7 +206,7 @@ ByteToHex:
 	xlat
 	ret
 
-memdumptitle:	db	': memdump v1    ', 0x00
+memdumptitle:	db	': memdump 0.8.0 ', 0x00
 MemDump:
 ; ACCEPTS
 ;   CX=segment to dump, SI=starting location

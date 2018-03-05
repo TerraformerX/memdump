@@ -21,6 +21,7 @@
 ;    ************************************************************************
 ;      * Name:       MemDump                                              *
 ;      * Version:    0.8.0 (alpha)                                        *
+;      * Assembler:  NASM                                                 *
 ;      *                                                                  *
 ;      * Created:    July 4, 2017                                         *
 ;      * Author:     s0s, a.k.a. TerraformerX                             *

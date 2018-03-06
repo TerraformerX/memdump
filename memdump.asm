@@ -128,9 +128,9 @@ start:
 		; Install int 80
 		mov	bx, 4*INT_80	; Offset of interrupt vector table
 		mov	dx, INT_80_OFFSET;Load DX with offset of ISR section 
-		mov	word [es:bx], dx; Install ISR offset into IVT entry 20h 
+		mov	word [es:bx], dx; Install ISR offset into IVT entry 80h 
 		mov	dx, INT_SR_SEGMENT;Value of int subroutine segment
-		mov	word [es:bx+2], dx;Install ISR segment in IVT entry 20h
+		mov	word [es:bx+2], dx;Install ISR segment in IVT entry 80h
 
 		; Initialize data memory
 		mov	cx, 0x1003	; Number of words to zero fill

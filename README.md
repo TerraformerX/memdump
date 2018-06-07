@@ -1,7 +1,5 @@
-# MemDump
+# MemDump version 1.0
 Copyright (C) 2018 s0s
-
-Current version: 1.0
 
 MemDump is a program written in intel 8088 assembly to display the contents of memory in hexadecimal on a 20 character wide x 4 line LCD screen. A future goal is to accept input from the user to determine what memory address to start at.
 

@@ -1,5 +1,5 @@
 ;******************************************************************************
-; MemDump 0.8.0
+; MemDump 1.0
 ; 
 ; MemDump is an 8088 program to show contents of memory in hexadecimal.
 ; Copyright (C) 2018 s0s
@@ -20,16 +20,16 @@
 
 ;    ************************************************************************
 ;      * Name:       MemDump                                              *
-;      * Version:    0.8.0 (alpha)                                        *
+;      * Version:    1.0                                                  *
 ;      * Assembler:  NASM                                                 *
 ;      *                                                                  *
 ;      * Created:    July 4, 2017                                         *
 ;      * Author:     s0s, a.k.a. TerraformerX                             *
 ;      *                                                                  *
-;      * Modified:   March 4, 2018                                        *
-;      * Changes:    Fixed an omission in the BtoATable                   *
+;      * Modified:   June 7, 2018                                         *
+;      * Changes:    Changed the version to version 1.0                   *
 ;      *                                                                  *
-;      * Purpose:    To make utilities to print a screen and dump memory  *
+;      * Purpose:    To print a screen and dump memory                    *
 ;      *                                                                  *
 ;      * Functional: - stack                                              *
 ;      *             - I/O (8255 PPI)                                     *
@@ -207,7 +207,7 @@ ByteToHex:
 	xlat
 	ret
 
-memdumptitle:	db	': memdump 0.8.0 ', 0x00
+memdumptitle:	db	': memdump 1.0 ', 0x00
 MemDump:
 ; ACCEPTS
 ;   CX=segment to dump, SI=starting location
